@@ -15,6 +15,19 @@ In this work, we implement color-based image segmentation using RGB, HSV and CIE
 
 We select 2 simple and colorful input images, as illustrated next.
 
+<table>
+  <tr>
+    <td><p style="text-align:center;">Image-01</p></td>
+    <td><p style="text-align:center;">Image-02</p></td>
+   </tr> 
+   <tr>
+      <td><img src="images/image-01.jpg" width="500"></td>
+      <td><img src="images/image-02.jpg" width="500"></td>
+  </td>
+  </tr>
+</table>
+
+
 <div class="row">
   <div class="column">
     <img src="images/image-01.jpg" width="500">
@@ -61,32 +74,43 @@ Next, we shall illustrate sample results
 
 ## 4. Sample Results
 
+<table>
+  <tr>
+    <td> Original Image </td>
+    <td> <img src="images/image-01.jpg" width="500"  ></td>
+   </tr> 
+   <tr>
+    <td> RGB Color Space </td>
+    <td> <img src="sample_results/image-01-segmentation-RGB.jpg" width="500"  ></td>
+  </tr>
+  <tr>
+    <td> HSV Color Space </td>
+    <td> <img src="sample_results/image-01-segmentation-HSV.jpg" width="500"  ></td>
+  </tr>
+  <tr>
+    <td> CIELAB Color Space </td>
+    <td> <img src="sample_results/image-01-segmentation-CIELAB.jpg" width="500"  ></td>
+  </tr>
+</table>
 
-<div class="row">
-  <div class="column">
-    <img src="images/image-01.jpg" width="500">
-  </div>
-  <div class="column">
-    <img src="sample_results/image-01-segmentation-RGB.jpg" width="500">
-  </div>
-  <div class="column">
-    <img src="sample_results/image-01-segmentation-HSV.jpg" width="500">
-  </div>
-  <div class="column">
-    <img src="sample_results/image-01-segmentation-CIELABV.jpg" width="500">
-  </div>
-</div>
-
-
-
-
-Example results for the pre-trained models provided :
-
-Input Image            |  Output Segmentation Image
-:-------------------------:|:-------------------------:
-![](sample_images/1_input.jpg)  |  ![](sample_images/1_output.png)
-![](sample_images/3_input.jpg)  |  ![](sample_images/3_output.png)
-
+<table>
+  <tr>
+    <td> Original Image </td>
+    <td> <img src="images/image-02.jpg" width="500"  ></td>
+   </tr> 
+   <tr>
+    <td> RGB Color Space </td>
+    <td> <img src="sample_results/image-02-segmentation-RGB.jpg" width="500"  ></td>
+  </tr>
+  <tr>
+    <td> HSV Color Space </td>
+    <td> <img src="sample_results/image-02-segmentation-HSV.jpg" width="500"  ></td>
+  </tr>
+  <tr>
+    <td> CIELAB Color Space </td>
+    <td> <img src="sample_results/image-02-segmentation-CIELAB.jpg" width="500"  ></td>
+  </tr>
+</table>
 
 
 
