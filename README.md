@@ -17,26 +17,15 @@ We select 2 simple and colorful input images, as illustrated next.
 
 <table>
   <tr>
-    <td><p style="text-align:center;">Image-01</p></td>
-    <td><p style="text-align:center;">Image-02</p></td>
+    <td><center>Image-01</center></td>
+    <td><center><p style="text-align:center;">Image-02</p></center></td>
    </tr> 
    <tr>
       <td><img src="images/image-01.jpg" width="500"></td>
-      <td><img src="images/image-02.jpg" width="500"></td>
+      <td><img src="images/image-02.jpg" width="550"></td>
   </td>
   </tr>
 </table>
-
-
-<div class="row">
-  <div class="column">
-    <img src="images/image-01.jpg" width="500">
-  </div>
-  <div class="column">
-    <img src="images/image-02.jpg" width="500">
-  </div>
-</div>
-
 
 # 3. Approach
 
@@ -76,7 +65,7 @@ Next, we shall illustrate sample results
 
 <table>
   <tr>
-    <td> Original Image </td>
+    <td> Original Image-001 </td>
     <td> <img src="images/image-01.jpg" width="500"  ></td>
    </tr> 
    <tr>
@@ -95,7 +84,7 @@ Next, we shall illustrate sample results
 
 <table>
   <tr>
-    <td> Original Image </td>
+    <td> Original Image-002 </td>
     <td> <img src="images/image-02.jpg" width="500"  ></td>
    </tr> 
    <tr>
