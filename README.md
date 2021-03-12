@@ -55,13 +55,15 @@ These steps can easily be implemented in MATLAB as illustrated in the next figur
     <img src="figures/color-based-image-segmentation.JPG" width="100">
   </div>
   <div class="column">
-    <img src="figures/color-based-image-segmentation-MATLAB-implementation.JPG" width="500">
+    <img src="figures/color-based-image-segmentation-MATLAB-implementation.JPG" width="400">
   </div>
 </div>
 
 Next, we shall illustrate sample results
 
 ## 4. Sample Results
+
+The segmentation results for the first input image using the RGB, HSV and CIELAB color spaces are illustrated next.
 
 <table>
   <tr>
@@ -82,6 +84,8 @@ Next, we shall illustrate sample results
   </tr>
 </table>
 
+The segmentation results for the second input image using the RGB, HSV and CIELAB color spaces are illustrated next.
+
 <table>
   <tr>
     <td> Original Image-002 </td>
@@ -101,9 +105,8 @@ Next, we shall illustrate sample results
   </tr>
 </table>
 
-
+The CIELAB color space yields the best qualitattaice image segmentation results as compared to HSV color space and they both both yield more accurate segmentation results than the RGB color space.
 
 4. Conclusion
 
-Inthis project, we designed and implemented a color camera image signal processing (ISP) pipeline to process images acquired under poor illumination nighttime conditions. We illustrated the output of each module of the pipeline and demonstrated that final output image has significantly better quality and its scene contents can easily be detected and recognized by the human eyes as well as autkmated computer vision systems, inspite of the challenging nighttime illumination conditions.  
-
+In this project, we implemented color-based image segmentation and demonstrated the benefits of performaing the segmentation in alternative color spaces, instead o fthe traditional RGB color space. The CIELAB color space yields the best qualitattaice image segmentation results as compared to HSV color space and they both both yield more accurate segmentation results than the RGB color space.
