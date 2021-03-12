@@ -17,10 +17,10 @@ We select 2 simple and colorful input images, as illustrated next.
 
 <div class="row">
   <div class="column">
-    <img src="images/image-01.jpg" width="450">
+    <img src="images/image-01.jpg" width="500">
   </div>
   <div class="column">
-    <img src="images/image-02.jpg" width="450">
+    <img src="images/image-02.jpg" width="500">
   </div>
 </div>
 
