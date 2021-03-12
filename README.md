@@ -63,11 +63,12 @@ Next, we shall illustrate sample results
 
 Example results for the pre-trained models provided :
 
-Image-01                       |  Image-02
-:-------------------------:|:-------------------------:
-![](sample_images/1_input.jpg)  |  ![](sample_images/1_output.png)
-![](sample_images/3_input.jpg)  |  ![](sample_images/3_output.png)
-
+                      Image-01                       |  Image-02
+:--------------:|:-------------------------:|:-------------------------:
+! Image    | ![](images/image-01.jpg)  |  ![](images/image-02.jpg)
+! RGB    | ![](sample_results/image-01-segmentation-RGB.jpg)  |  ![](sample_results/image-02-segmentation-RGB.jpg)
+! HSV    | ![](sample_results/image-01-segmentation-HSV.jpg)  |  ![](sample_results/image-02-segmentation-HSV.jpg)
+! CIELAB    | ![](sample_results/image-01-segmentation-CIELAB.jpg)  |  ![](sample_results/image-02-segmentation-CIELAB.jpg)
 
 
 ## 3.2 Auto-White Balancing
