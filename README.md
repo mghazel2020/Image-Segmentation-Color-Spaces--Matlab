@@ -27,26 +27,48 @@ We select 2 simple and colorful input images, as illustrated next.
 
 # 3. Approach
 
-The proposed ISP pipeline is illustrated in the figure below.
 
-<img src="figures/Implemented_ISP_Pipeline_New.jpg" width="1000">
+Color based image segmentation is an active research field. It is typically not performed in the RGB space. Instead it is applied in more suitable color spaces that
+separate Luma (brightness/intensity) from Chroma (color). Suitable color spaces include:
+* HSV:
+   * HS: color information
+   * V: Intensity information
+* CIELAB:
+   * L: Luminance information
+   * AB: Color information
+   * Euclidian distance between colors is consistent with perceptual difference observed by human beings
+* Others color spaces include YCrCb , YUV, HSI, HSL, etc.
 
-Next, we shall illustrate the poutput of each module. 
+In this work, we implement a color based image segmentation using the HSV and CIELAB color spaces. Although this is not adviseable, we also perform the segmentation in the traditional RGB space in order to identify the deficiences of doing this and highlight the benefits of conducting color segmentation in the other color spaces.
 
-demonstrated in the submitted code, we implemented the following 3-step process to generated high-resolution 2D images from the relatively sparse 3D point cloud, illustrated in the fugure above:
+The color-based segmentation process can be outlined as follows:
+1.Convert the input image to the color space of choice
+2.Apply K-means clustering algorithm to segment the K different colors in the new color space
+3.Construct a segmentation label map from the K-means clustering results
 
-## 3.1 Linearization
-
-When acquired by the camera, the images are stored in companded RAW format to disk. First, they need to be linearized and normalized and properly reshaped for further processing.   The figures below illustrated the output of the linearization module.
+These steps can easily be implemented in MATLAB as illustrated in the next figures.
 
 <div class="row">
   <div class="column">
-    <img src="figures/Image_01_Normalized.JPG" width="450">
+    <img src="figures/color-based-image-segmentation.JPG" width="100">
   </div>
   <div class="column">
-    <img src="figures/Image_02_Normalized.JPG" width="450">
+    <img src="figures/color-based-image-segmentation-MATLAB-implementation.JPG" width="500">
   </div>
 </div>
+
+Next, we shall illustrate sample results
+
+## 3.1 Linearization
+
+Example results for the pre-trained models provided :
+
+Image-01                       |  Image-02
+:-------------------------:|:-------------------------:
+![](sample_images/1_input.jpg)  |  ![](sample_images/1_output.png)
+![](sample_images/3_input.jpg)  |  ![](sample_images/3_output.png)
+
+
 
 ## 3.2 Auto-White Balancing
 
