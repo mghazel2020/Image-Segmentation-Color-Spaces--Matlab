@@ -1,4 +1,4 @@
-# Image Color Spaces Segmentation in Matlab
+# Image Color Space Segmentation in Matlab
 
 <table>
    <tr>
