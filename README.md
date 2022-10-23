@@ -17,8 +17,8 @@ We select 2 simple and colorful input images, as illustrated next.
 
 <table>
   <tr>
-    <td><center>Image-01</center></td>
-    <td><center><p style="text-align:center;">Image-02</p></center></td>
+    <td align="center">Image-01</td>
+    <td align="center">">Image-02</p></td>
    </tr> 
    <tr>
       <td><img src="images/image-01.jpg" width="500"></td>
@@ -54,7 +54,7 @@ These steps can easily be implemented in MATLAB as illustrated in the next figur
     <img src="figures/color-based-image-segmentation.JPG" width="100">
   </div>
   <div class="column">
-    <img src="figures/color-based-image-segmentation-MATLAB-implementation.JPG" width="400">
+    <align="center" img src="figures/color-based-image-segmentation-MATLAB-implementation.JPG" width="400">
   </div>
 </div>
 
@@ -66,19 +66,19 @@ The segmentation results for the first input image using the RGB, HSV and CIELAB
 
 <table>
   <tr>
-    <td> Original Image-001 </td>
+    <td align="center"> Original Image-001 </td>
     <td> <img src="images/image-01.jpg" width="500"  ></td>
    </tr> 
    <tr>
-    <td> RGB Color Space </td>
-    <td> <img src="sample_results/image-01-segmentation-RGB.jpg" width="500"  ></td>
+    <td align="center"> RGB Color Space </td>
+    <td><img src="sample_results/image-01-segmentation-RGB.jpg" width="500"  ></td>
   </tr>
   <tr>
-    <td> HSV Color Space </td>
+    <td align="center"> HSV Color Space </td>
     <td> <img src="sample_results/image-01-segmentation-HSV.jpg" width="500"  ></td>
   </tr>
   <tr>
-    <td> CIELAB Color Space </td>
+    <td align="center"> CIELAB Color Space </td>
     <td> <img src="sample_results/image-01-segmentation-CIELAB.jpg" width="500"  ></td>
   </tr>
 </table>
@@ -87,19 +87,19 @@ The segmentation results for the second input image using the RGB, HSV and CIELA
 
 <table>
   <tr>
-    <td> Original Image-002 </td>
+    <td align="center"> Original Image-002 </td>
     <td> <img src="images/image-02.jpg" width="500"  ></td>
    </tr> 
    <tr>
-    <td> RGB Color Space </td>
+    <td align="center"> RGB Color Space </td>
     <td> <img src="sample_results/image-02-segmentation-RGB.jpg" width="500"  ></td>
   </tr>
   <tr>
-    <td> HSV Color Space </td>
+    <td align="center"> HSV Color Space </td>
     <td> <img src="sample_results/image-02-segmentation-HSV.jpg" width="500"  ></td>
   </tr>
   <tr>
-    <td> CIELAB Color Space </td>
+    <td align="center"> CIELAB Color Space </td>
     <td> <img src="sample_results/image-02-segmentation-CIELAB.jpg" width="500"  ></td>
   </tr>
 </table>
