@@ -109,6 +109,11 @@ The segmentation results for the second input image using the RGB, HSV and CIELA
 
 The CIELAB color space yields the best qualitattaice image segmentation results as compared to HSV color space and they both both yield more accurate segmentation results than the RGB color space.
 
-## 4. Conclusion
+## 5. Conclusion
 
 In this project, we implemented color-based image segmentation and demonstrated the benefits of performaing the segmentation in alternative color spaces, instead o fthe traditional RGB color space. The CIELAB color space yields the best qualitattaice image segmentation results as compared to HSV color space and they both both yield more accurate segmentation results than the RGB color space.
+
+## 6. References
+1. Color-Based Segmentation Using the L*a*b* Color Space. Retrieved from: https://www.mathworks.com/help/images/color-based-segmentation-using-the-l-a-b-color-space.html (October 8th, 2022). 
+2. Color Image Segmentation — Image Processing. Retrieved from: https://mattmaulion.medium.com/color-image-segmentation-image-processing-4a04eca25c0 October 8th, 2022). 
+3. Image Segmentation Using Color Spaces. Retrieved from: https://www.kaggle.com/code/sanikamal/image-segmentation-using-color-spaces October 8th, 2022). 
