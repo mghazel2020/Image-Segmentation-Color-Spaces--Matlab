@@ -1,5 +1,11 @@
 # Image Color Spaces Segmentation in Matlab
 
+<table>
+   <tr>
+      <td><img src="figures/color-based-image-segmentation.png" width="400"></td>
+  </td>
+</table>
+
 ## 1. Objective
 
 To implement and compare color-based image segmentation using different color spaces.
