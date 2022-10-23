@@ -1,17 +1,17 @@
-# Image-Segmentation--Color-Spaces--Matlab
+# Image Color Spaces Segmentation in Matlab
 
-# 1. Objective
+## 1. Objective
 
 To implement and compare color-based image segmentation using different color spaces.
 
-# 2. Motivation
+## 2. Motivation
 
 Color image segmentation is a very emerging topic for image processing research. Since it has the ability to present the result in a way that is much more close to the
 human eyes perceive, so today’s more research is going on this area. Choosing a proper color space is a very important issue for color image segmentation process. Generally the HSV and CIELAB color spaces are the two frequently chosen color spaces for color segmentation, instead of using the RGB color space. 
 
 In this work, we implement color-based image segmentation using RGB, HSV and CIELAB color spaces and present a quanoitative comparison of the segmentation results obtained by using the 3 different color spaces.
 
-# 2. The input Images
+## 2. The input Images
 
 We select 2 simple and colorful input images, as illustrated next.
 
@@ -27,8 +27,7 @@ We select 2 simple and colorful input images, as illustrated next.
   </tr>
 </table>
 
-# 3. Approach
-
+## 3. Approach
 
 Color based image segmentation is an active research field. It is typically not performed in the RGB space. Instead it is applied in more suitable color spaces that
 separate Luma (brightness/intensity) from Chroma (color). Suitable color spaces include:
@@ -107,6 +106,6 @@ The segmentation results for the second input image using the RGB, HSV and CIELA
 
 The CIELAB color space yields the best qualitattaice image segmentation results as compared to HSV color space and they both both yield more accurate segmentation results than the RGB color space.
 
-4. Conclusion
+## 4. Conclusion
 
 In this project, we implemented color-based image segmentation and demonstrated the benefits of performaing the segmentation in alternative color spaces, instead o fthe traditional RGB color space. The CIELAB color space yields the best qualitattaice image segmentation results as compared to HSV color space and they both both yield more accurate segmentation results than the RGB color space.
