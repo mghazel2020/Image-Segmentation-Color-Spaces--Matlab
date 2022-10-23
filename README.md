@@ -55,8 +55,8 @@ These steps can easily be implemented in MATLAB as illustrated in the next figur
     <td align="center">Color-Conversion</p></td>
    </tr> 
    <tr>
-      <td><img src="figures/color-based-image-segmentation.JPG" height="400"></td>
-      <td><img src="figures/color-based-image-segmentation-MATLAB-implementation.JPG" height="400"></td>
+      <td><img src="figures/color-based-image-segmentation.JPG" height="300"></td>
+      <td><img src="figures/color-based-image-segmentation-MATLAB-implementation.JPG" height="300"></td>
   </td>
   </tr>
 </table>
