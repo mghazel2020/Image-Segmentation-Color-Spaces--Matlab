@@ -18,7 +18,7 @@ We select 2 simple and colorful input images, as illustrated next.
 <table>
   <tr>
     <td align="center">Image-01</td>
-    <td align="center">">Image-02</p></td>
+    <td align="center">Image-02</p></td>
    </tr> 
    <tr>
       <td><img src="images/image-01.jpg" width="500"></td>
@@ -51,7 +51,7 @@ These steps can easily be implemented in MATLAB as illustrated in the next figur
 
 <div class="row">
   <div class="column">
-    <img src="figures/color-based-image-segmentation.JPG" width="100">
+    <img src="figures/color-based-image-segmentation.JPG" width="400">
   </div>
   <div class="column">
     <align="center" img src="figures/color-based-image-segmentation-MATLAB-implementation.JPG" width="400">
