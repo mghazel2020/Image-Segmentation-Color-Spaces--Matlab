@@ -49,14 +49,17 @@ The color-based segmentation process can be outlined as follows:
 
 These steps can easily be implemented in MATLAB as illustrated in the next figures.
 
-<div class="row">
-  <div class="column">
-    <img src="figures/color-based-image-segmentation.JPG" height="500">
-  </div>
-  <div class="column">
-    <img src="figures/color-based-image-segmentation-MATLAB-implementation.JPG" height="500">
-  </div>
-</div>
+<table>
+  <tr>
+    <td align="center">Image-01</td>
+    <td align="center">Image-02</p></td>
+   </tr> 
+   <tr>
+      <td><img src="figures/color-based-image-segmentation.JPG" height="400"></td>
+      <td><img src="figures/color-based-image-segmentation-MATLAB-implementation.JPG" height="400"></td>
+  </td>
+  </tr>
+</table>
 
 Next, we shall illustrate sample results
 
