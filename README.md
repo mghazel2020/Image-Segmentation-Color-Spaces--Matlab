@@ -51,10 +51,10 @@ These steps can easily be implemented in MATLAB as illustrated in the next figur
 
 <div class="row">
   <div class="column">
-    <img src="figures/color-based-image-segmentation.JPG" width="400">
+    <img src="figures/color-based-image-segmentation.JPG" height="500">
   </div>
   <div class="column">
-    <align="center" img src="figures/color-based-image-segmentation-MATLAB-implementation.JPG" width="400">
+    <img src="figures/color-based-image-segmentation-MATLAB-implementation.JPG" height="500">
   </div>
 </div>
 
