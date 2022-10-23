@@ -2,7 +2,7 @@
 
 <table>
    <tr>
-      <td><img src="figures/color-based-image-segmentation.png" width="400"></td>
+      <td><img src="figures/color-based-image-segmentation.png" width="500"></td>
   </td>
 </table>
 
