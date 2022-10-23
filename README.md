@@ -115,5 +115,5 @@ In this project, we implemented color-based image segmentation and demonstrated 
 
 ## 6. References
 1. Color-Based Segmentation Using the L*a*b* Color Space. Retrieved from: https://www.mathworks.com/help/images/color-based-segmentation-using-the-l-a-b-color-space.html (October 8th, 2022). 
-2. Color Image Segmentation — Image Processing. Retrieved from: https://mattmaulion.medium.com/color-image-segmentation-image-processing-4a04eca25c0 October 8th, 2022). 
-3. Image Segmentation Using Color Spaces. Retrieved from: https://www.kaggle.com/code/sanikamal/image-segmentation-using-color-spaces October 8th, 2022). 
+2. Color Image Segmentation — Image Processing. Retrieved from: https://mattmaulion.medium.com/color-image-segmentation-image-processing-4a04eca25c0 (October 8th, 2022). 
+3. Image Segmentation Using Color Spaces. Retrieved from: https://www.kaggle.com/code/sanikamal/image-segmentation-using-color-spaces (October 8th, 2022). 
