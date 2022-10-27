@@ -61,8 +61,8 @@ These steps can easily be implemented in MATLAB as illustrated in the next figur
     <td align="center">Color Conversion</p></td>
    </tr> 
    <tr>
-      <td><img src="figures/color-based-image-segmentation.JPG" width="1000"></td>
-      <td><img src="figures/color-based-image-segmentation-MATLAB-implementation.JPG" width="1000"></td>
+      <td><img src="figures/color-based-image-segmentation.JPG" width="500"></td>
+      <td><img src="figures/color-based-image-segmentation-MATLAB-implementation.JPG" width="500"></td>
   </td>
   </tr>
 </table>
@@ -76,7 +76,7 @@ The segmentation results for the first input image using the RGB, HSV and CIELAB
 <table>
   <tr>
     <td align="center"> Original Image-001 </td>
-    <td> <img src="images/image-01.jpg" width="500"  ></td>
+    <td> <img src="images/image-01.jpg" width="1000"  ></td>
    </tr> 
    <tr>
     <td align="center"> RGB Color Space </td>
@@ -97,7 +97,7 @@ The segmentation results for the second input image using the RGB, HSV and CIELA
 <table>
   <tr>
     <td align="center"> Original Image-002 </td>
-    <td> <img src="images/image-02.jpg" width="500"  ></td>
+    <td> <img src="images/image-02.jpg" width="1000"  ></td>
    </tr> 
    <tr>
     <td align="center"> RGB Color Space </td>
