@@ -2,7 +2,7 @@
 
 <table>
    <tr>
-      <td><img src="figures/color-based-image-segmentation.png" width="500"></td>
+      <td><img src="figures/color-based-image-segmentation.png" width="1000"></td>
   </td>
 </table>
 
@@ -27,8 +27,8 @@ We select 2 simple and colorful input images, as illustrated next.
     <td align="center">Image-02</p></td>
    </tr> 
    <tr>
-      <td><img src="images/image-01.jpg" width="500"></td>
-      <td><img src="images/image-02.jpg" width="550"></td>
+      <td><img src="images/image-01.jpg" width="1000"></td>
+      <td><img src="images/image-02.jpg" width="1000"></td>
   </td>
   </tr>
 </table>
@@ -61,8 +61,8 @@ These steps can easily be implemented in MATLAB as illustrated in the next figur
     <td align="center">Color Conversion</p></td>
    </tr> 
    <tr>
-      <td><img src="figures/color-based-image-segmentation.JPG" height="300"></td>
-      <td><img src="figures/color-based-image-segmentation-MATLAB-implementation.JPG" height="300"></td>
+      <td><img src="figures/color-based-image-segmentation.JPG" width="1000"></td>
+      <td><img src="figures/color-based-image-segmentation-MATLAB-implementation.JPG" width="1000"></td>
   </td>
   </tr>
 </table>
@@ -80,15 +80,15 @@ The segmentation results for the first input image using the RGB, HSV and CIELAB
    </tr> 
    <tr>
     <td align="center"> RGB Color Space </td>
-    <td><img src="sample_results/image-01-segmentation-RGB.jpg" width="500"  ></td>
+    <td><img src="sample_results/image-01-segmentation-RGB.jpg" width="1000"  ></td>
   </tr>
   <tr>
     <td align="center"> HSV Color Space </td>
-    <td> <img src="sample_results/image-01-segmentation-HSV.jpg" width="500"  ></td>
+    <td> <img src="sample_results/image-01-segmentation-HSV.jpg" width="1000"  ></td>
   </tr>
   <tr>
     <td align="center"> CIELAB Color Space </td>
-    <td> <img src="sample_results/image-01-segmentation-CIELAB.jpg" width="500"  ></td>
+    <td> <img src="sample_results/image-01-segmentation-CIELAB.jpg" width="1000"  ></td>
   </tr>
 </table>
 
@@ -101,15 +101,15 @@ The segmentation results for the second input image using the RGB, HSV and CIELA
    </tr> 
    <tr>
     <td align="center"> RGB Color Space </td>
-    <td> <img src="sample_results/image-02-segmentation-RGB.jpg" width="500"  ></td>
+    <td> <img src="sample_results/image-02-segmentation-RGB.jpg" width="1000"  ></td>
   </tr>
   <tr>
     <td align="center"> HSV Color Space </td>
-    <td> <img src="sample_results/image-02-segmentation-HSV.jpg" width="500"  ></td>
+    <td> <img src="sample_results/image-02-segmentation-HSV.jpg" width="1000"  ></td>
   </tr>
   <tr>
     <td align="center"> CIELAB Color Space </td>
-    <td> <img src="sample_results/image-02-segmentation-CIELAB.jpg" width="500"  ></td>
+    <td> <img src="sample_results/image-02-segmentation-CIELAB.jpg" width="1000"  ></td>
   </tr>
 </table>
 
