@@ -54,19 +54,18 @@ The color-based segmentation process can be outlined as follows:
 3.Construct a segmentation label map from the K-means clustering results
 
 These steps can easily be implemented in MATLAB as illustrated in the next figures.
-<p aligh="center">
+
 <table>
   <tr>
     <td align="center">Color Segmentation</td>
     <td align="center">Color Conversion</p></td>
    </tr> 
    <tr>
-      <td><img src="figures/color-based-image-segmentation.JPG" width="200"></td>
-      <td><img src="figures/color-based-image-segmentation-MATLAB-implementation.JPG" width="200"></td>
+      <td><img src="figures/color-based-image-segmentation.JPG" height="500"></td>
+      <td><img src="figures/color-based-image-segmentation-MATLAB-implementation.JPG" height="500"></td>
   </td>
   </tr>
 </table>
-</p>
 
 Next, we shall illustrate sample results
 
